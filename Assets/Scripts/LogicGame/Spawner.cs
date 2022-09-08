@@ -24,7 +24,5 @@ public class Spawner : MonoBehaviour
 
             yield return waitForSeconds;
         }
-
-        StopCoroutine(_activationEnemies);
     }
 }
